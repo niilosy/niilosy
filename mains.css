@@ -1,0 +1,64 @@
+header h1, h2 {
+    height: 250px;
+    text-align: center;
+    padding-top: 110px;
+}
+
+h3 {
+	height: 125px;
+	padding-top: 40px;
+	text-align:center;
+}
+
+h4 {
+	text-align: center;
+	height:62px;
+	padding-top:15px;
+}
+
+header div {
+	border: solid;
+}
+
+header {
+	background-color: blue;
+}
+
+main {
+		padding: 150px;
+	background-color: pink;
+}
+
+main h1 {
+	
+	padding-bottom:125px;
+	text-align: center;
+}
+
+#tuomari {
+padding-top:80px;	
+}
+
+main h4 {
+	background-color; blue
+}
+
+main h2 {
+	text-align: center;
+	
+}
+
+p {
+	padding-bottom: 55px;
+	 text-align: center;
+}
+
+main div {
+	border:solid;
+
+}
+
+footer button {
+	margin-left: 48%;
+	border-radius: 50px;
+}

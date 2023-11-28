@@ -3,42 +3,97 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="mains.css">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="mains.css">
   </head>
   <body>
-  <div class="row">
-  <div class="cold-md-12">
-    <h1>Hello, world!</h1>
-	</div>
+  <header>
+   <nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Hello world!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+        <form>
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+	</nav>
+	<div class="row">
+		<div class="cold-md-12">
+		<h1>Hello, world!</h1>
+		</div>
 	</div>
 	<div class="row">
-	<div class="col-md-6">
-	<h2>Hello,</h2>
-	</div>
-	<div class="col-md-6">
-	<h2>World!</h2>
-	</div>
-	<div class="col-md-4">
-	<h3>4</h3>
-	</div>
-	<div class="col-md-8">
-	<h3>8</h3>
-	</div>
-	<div class="col-md-3">
-	<h4>3</h3>
-	</div>
-	<div class="col-md-3">
-	<h4>3</h3>
-	</div>
-	<div class="col-md-3">
-	<h4>3</h3>
-	</div>
-	<div class="col-md-3">
-	<h4>3</h3>
-	</div>
+		<div class="col-md-6">
+			<h2>Hello,</h2>
+		</div>
+		<div class="col-md-6">
+			<h2>World!</h2>
+		</div>
+		<div class="col-md-4">
+			<h3>4</h3>
+		</div>
+		<div class="col-md-8">
+			<h3>8</h3>
+		</div>
+		<div class="col-md-3">
+			<h4>3</h4>
+		</div>
+		<div class="col-md-3">
+		<h4>3</h4>
+		</div>
+		<div class="col-md-3">
+			<h4>3</h4>
+		</div>
+		<div class="col-md-3">
+			<h4>3</h4>
+		</div>
 	</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </header>
+  <main>
+	<h1> Väittelyiden tulokset </h1>
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Bootstrapin puolesta</h2>
+				<p> -Hyvä aloittelijoille. <br> -Nopeampi tapa luoda perus nettisivu <br> Iso yhteisö, joka auttaa.</p>
+			</div>
+			<div class="col-md-6">
+				<h2>Bootstrappia vastaan</h2>
+				<p> -Kestää opetella <br> -Luovuus kärsii kun kaikki nettisivut ovat perus "bs" sivuja. <br> -Latausajat saattavat olla pitkiä </p>
+			</div>
+		</div>
+	<h1 id="tuomari"> Tuomariston tulokset</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Bootstrapin puolesta</h2>
+				<p> -Kirsi kiireinen +1 <br> -Pete perussiisti +1 <br> -Piia portfolisivu +1<p> 
+			</div>
+			<div class="col-md-6">
+				<h2>Bootstrappia vastaan</h2>
+				<p> -Ykä yksilöllinen +1 <br> -Minna monimutkainensivu +1 <br> -Asiantuntija/opettaja Janne +1<p> 
+			</div>
+		</div>
+  </main>
+  <footer class="footer mt-auto py-3 bg-light">
+		<div class="container">
+			<span class="text-muted">
+				<a href="login.html"><button>Sign in</button></a>
+			</span>
+		</div>
+	</footer>
   </body>
 </html>
