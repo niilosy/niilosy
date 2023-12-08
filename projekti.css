@@ -1,0 +1,174 @@
+header {
+	background-color:#FFE066;
+	display: flex; flex-wrap:wrap; align-items:stretch; justify-content: space-evenly;
+	padding-top: 50px;
+}
+
+header form {
+	padding-left: 100px;
+}
+
+header h1 {
+	padding-top: 15px;
+}
+
+main { 
+	display: flex; flex-wrap:wrap; justify-content: center; align-items:stretch;
+	padding-bottom: 100px;
+	background-color:white;
+	width: 100%;
+}
+
+footer {
+		display: flex; flex-wrap:wrap; justify-content: center; align-items:stretch;
+	background-color:#94B9AF;
+	text-align:center;
+	font-size:30px;
+}
+
+img {
+	padding-right: 10px;
+}
+
+h1 {
+	font-family:"rubik", sans serif;
+}
+
+h2 {
+	text-align:center;
+}
+
+p {
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+}
+
+#main-menu {
+		padding-top: 15px;
+	list-style-type: none;
+	padding-left:25px;
+	display: flex; flex-wrap:wrap; align-items:stretch;
+}
+
+#otsikko {
+	background-image: url("img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
+	padding-bottom: 60px;
+	padding-top:40px;
+}
+
+#otsikko2 {
+	background-image: url("img/abstract.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
+	padding-bottom: 60px;
+	padding-top:40px;
+}
+
+#otsikko3{
+	background-image: url("img/sun.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
+	padding-bottom: 60px;
+	padding-top:40px;
+}
+
+#kuva {
+	background-color: #FFE066;
+}
+
+li {
+	padding-top: 15px;
+	margin: 0 60px 0 60px ;
+}
+
+body {
+	margin: auto;
+}
+
+footer h2 {
+	width: 100%;
+	padding-top:20px;
+	padding-bottom: 30px;
+}
+
+#headdiv {
+	display: flex; flex: wrap; 
+}
+
+#lista {
+		display: flex; flex: wrap; justify-content: space-evenly;
+		padding-top: 50px;
+		
+}
+
+button {
+			box-shadow: 0px 2px 10px rgba(0,0,0,50%); 
+	border-radius: 50px 50px 50px 50px;
+}
+
+article h3 {
+	text-align: center;
+	
+}
+
+article {
+	max-width:400px;
+	margin: 0 35px 0 35px;
+}
+
+article img {
+	padding-bottom: 25px;
+	max-width: 100%;
+}
+
+main h1 {
+	width: 100%;
+}	
+	
+#nappi {
+	box-shadow: 0px 2px 10px rgba(0,0,0,50%); 
+	border-radius: 50px 50px 50px 50px;
+	color: white;
+	background-color: blue;
+}
+
+label {
+	font-weight: bold;
+}
+
+h3 {
+	font-family:"rubik", sans serif;
+}
+
+footer img {
+	background-color:#94B9AF;
+}
+
+footer div {
+	list-style-type: none;
+}
+
+section {
+	display: flex; flex-wrap: wrap; flex-direction: column; justify-content: space-evenly; align-items:stretch; 	list-style-type: none;
+	padding-bottom: 40px;
+}
+
+button:hover {
+	color: white;
+	background-color: blue;
+}
+
+
+section img {
+  transition: height width 2s;
+}
+
+section img:hover {
+  height: 100px;
+  width: 100px;
+}
