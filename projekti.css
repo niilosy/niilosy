@@ -1,15 +1,20 @@
 header {
-	background-color:#FFE066;
-	display: flex; flex-wrap:wrap; align-items:stretch; justify-content: space-evenly;
-	padding-top: 50px;
-}
-
-header form {
-	padding-left: 100px;
+	background-color:#353A47;
+	display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 header h1 {
+	color: white;
 	padding-top: 15px;
+}
+
+label {
+	color: white;
 }
 
 main { 
@@ -21,7 +26,7 @@ main {
 
 footer {
 		display: flex; flex-wrap:wrap; justify-content: center; align-items:stretch;
-	background-color:#94B9AF;
+	background-color:#353A47;
 	text-align:center;
 	font-size:30px;
 }
@@ -47,7 +52,9 @@ p {
 		padding-top: 15px;
 	list-style-type: none;
 	padding-left:25px;
-	display: flex; flex-wrap:wrap; align-items:stretch;
+	display: flex; flex-wrap:wrap; align-items:stretch; 
+	
+	   
 }
 
 #otsikko {
@@ -77,8 +84,13 @@ p {
 	padding-top:40px;
 }
 
-#kuva {
-	background-color: #FFE066;
+#otsikko4{
+	background-image: url("img/bslink.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
+	padding-bottom: 60px;
+	padding-top:40px;
 }
 
 li {
@@ -91,17 +103,18 @@ body {
 }
 
 footer h2 {
+	color: white;
 	width: 100%;
 	padding-top:20px;
 	padding-bottom: 30px;
 }
 
 #headdiv {
-	display: flex; flex: wrap; 
+	display: flex;  flex-direction: row; justify-content: center;
 }
 
 #lista {
-		display: flex; flex: wrap; justify-content: space-evenly;
+		
 		padding-top: 50px;
 		
 }
@@ -146,7 +159,7 @@ h3 {
 }
 
 footer img {
-	background-color:#94B9AF;
+	background-color:#353A47;
 }
 
 footer div {
@@ -171,4 +184,43 @@ section img {
 section img:hover {
   height: 100px;
   width: 100px;
+}
+
+
+
+@media {
+	min-width: 400px;
+}
+
+#form {
+	margin-top:70px;
+}
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 828px) {
+  #headdiv {
+    flex-direction: column; justify-content: center; align-items: center;
+  }
+  #main-menu {
+	  flex-direction: column; align-items: center;
+	  padding-right: 25px;
+  }
+  header {
+	  align-items: center;
+	  padding-bottom: 25px;
+  }
+  
+  h1 {
+	  align-items:center,
+  }
+}
+
+@media (min-width: 828px;){
+	header form {
+	padding-left: 100px;
+}
+}
+
+section {
+	width: 280px;
 }

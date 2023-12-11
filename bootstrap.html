@@ -6,12 +6,16 @@
     <title>Bootstrap sivu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<link rel="stylesheet" href="bs.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Work+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
   <header>
    <nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Hello world!</a>
+      <a class="navbar-brand" href="#">BS</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -19,79 +23,244 @@
       <div class="collapse navbar-collapse" id="navbarsExample02">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Koti</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="projekti.html">Takaisin</a>
           </li>
         </ul>
         <form>
-          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+          <input class="form-control" type="text" placeholder="Etsi" aria-label="Search">
         </form>
       </div>
     </div>
 	</nav>
 	<div class="row">
 		<div class="cold-md-12">
-		<h1>Hello, world!</h1>
+		<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">Hinnasto</h1>
+      <p class="fs-5 text-muted">Eri tilauksemme vertailtuna.</p>
+		</div>
+		</div>
+	</div>
+</header>
+<main>
+	<div class="row">
+	<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-white bg-dark border-dark">
+            <h4 class="my-0 fw-normal">Ilmainen</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">0€<small class="text-muted fw-light">/kk</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 käyttäjää</li>
+              <li>2 Gigaa tilaa</li>
+              <li>Email-tuki</li>
+              
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-dark">Valitse tilaus</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-white bg-dark border-dark">
+            <h4 class="my-0 fw-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">9.99€<small class="text-muted fw-light">/kk</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>20 käyttäjää</li>
+              <li>10 Gigaa tilaa</li>
+              <li>24/7 email-tuki</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-dark">Valitse tilaus</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-white bg-dark border-dark">
+            <h4 class="my-0 fw-normal">Legacy</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">22.99€<small class="text-muted fw-light">/kk</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>30 käyttäjää</li>
+              <li>15 Gigaa tilaa</li>
+              <li>Jatkuva puhelin- ja email-tuki</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-dark">Valitse tilaus</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+		<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+			<h1 class="display-4 fw-normal">Kuvasto</h1>
+		</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+			<h3>Polkupyörä</h3>
+			<img src="img/polkupyörä.jpg">
+			<p> Kätevä polkupyörä, joka toimii maastossa- ja kaupunkiajossa. </p> 
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">750€</button>
+			</ul>
+		</div>
+		<div class="col-md-4">
+			<h3>Mopo</h3>
+			<img src="img/mopo.jpeg">
+			<p> Uusi mopo halvalla nuorille miehen aluille, jotka etsivät vauhdikkaita nuoruusvuosia. Tilastollisesti vähiten kolaroiva mopo merkki </p>
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">3000€</button>
+			</ul>
+		</div>
+		<div class="col-md-4">
+			<h3>Auto</h3>
+			<img src="img/auto.jpg">
+			<p> Uusi sähköauto, täysi hiljaisuus taattu. Voi ladata puhelimen laturilla täyteen vain 24h kuluessa. </p>
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">30000€</button>
+			</ul>
+		</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6">
-			<h2>Hello,</h2>
+		<div class="col-md-12" id="ots1kko">
+		<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+			<h1 class="display-4 fw-normal">Matkat</h1>
 		</div>
-		<div class="col-md-6">
-			<h2>World!</h2>
-		</div>
-		<div class="col-md-4">
-			<h3>4</h3>
-		</div>
-		<div class="col-md-8">
-			<h3>8</h3>
-		</div>
-		<div class="col-md-3">
-			<h4>3</h4>
-		</div>
-		<div class="col-md-3">
-		<h4>3</h4>
-		</div>
-		<div class="col-md-3">
-			<h4>3</h4>
-		</div>
-		<div class="col-md-3">
-			<h4>3</h4>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<h3>Yellowstone</h3>
+			<img src="img/yellowstone.jpg">
+			<p> Matka Yellowstonen kansallispuistoon </p> 
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">7500€</button>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h3>Alaska</h3>
+			<img src="img/alaska.jpg">
+			<p> Matka Alaskaan</p>
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">4000€</button>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h3>Niagara </h3>
+			<img src="img/niagara.jpg">
+			<p> Matka Niagaran putouksille</p>
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">50000€</button>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h3>Grand Canyon</h3>
+			<img src="img/canyon.jpg">
+			<p> Matka Grand Canyoniin</p>
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">100000€</button>
+			</ul>
+		</div>
+	</div>
+	<div class="row" id="ots1kko">
+		<div class="col-md-12">
+		<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+			<h1 class="display-4 fw-normal">Kuvat</h1>
+		</div>
+		</div>
+			<div class="row">
+		<div class="col-md-6">
+			<h3>Niagara </h3>
+			<img src="img/niagara.jpg">
+			<p> Kuva Niagara putouksilta.</p>
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">5€</button>
+			</ul>
+		</div>
+		<div class="col-md-6 text-center">
+			<h3>Grand Canyon</h3>
+			<img src="img/canyon.jpg">
+			<p> Ammattilaisen ottama kuva Grand Canyonista.</p>
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">10€</button>
+			</ul>
+		</div>
+		</div>
+	</div>
+	<div class="row" id="ots2kko">
+		<div class="col-md-12">
+		<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+			<h1 class="display-4 fw-normal">Alennukset</h1>
+		</div>
+		</div>
+			<div class="row">
+		<div class="col-md-2">
+			<h3>Yellowstone</h3>
+			<img src="img/yellowstone.jpg">
+			<p> Matka Yellowstonen kansallispuistoon </p> 
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">7000€</button>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<h3>Alaska</h3>
+			<img src="img/alaska.jpg">
+			<p> Matka Alaskaan</p>
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">3000€</button>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<h3>Niagara </h3>
+			<img src="img/niagara.jpg">
+			<p> Matka Niagaran putouksille</p>
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">10000€</button>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<h3>Grand Canyon</h3>
+			<img src="img/canyon.jpg">
+			<p> Matka Grand Canyoniin</p>
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">150000€</button>
+			</ul>
+		</div>
+				<div class="col-md-2">
+			<h3>Niagara </h3>
+			<img src="img/montana.jpg">
+			<p> Matka Niagaran putouksille</p>
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">40000€</button>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<h3>Grand Canyon</h3>
+			<img src="img/colorado1.jpg">
+			<p> Matka Grand Canyoniin</p>
+			<ul>
+			<button type="button" class="w-100 btn btn-lg btn-dark">9000€</button>
+			</ul>
+		</div>
+		</div>
+	</div>
+	</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </header>
-  <main>
-	<h1> Väittelyiden tulokset </h1>
-		<div class="row">
-			<div class="col-md-6">
-				<h2>Bootstrapin puolesta</h2>
-				<p> -Hyvä aloittelijoille. <br> -Nopeampi tapa luoda perus nettisivu <br> Iso yhteisö, joka auttaa.</p>
-			</div>
-			<div class="col-md-6">
-				<h2>Bootstrappia vastaan</h2>
-				<p> -Kestää opetella <br> -Luovuus kärsii kun kaikki nettisivut ovat perus "bs" sivuja. <br> -Latausajat saattavat olla pitkiä </p>
-			</div>
-		</div>
-	<h1 id="tuomari"> Tuomariston tulokset</h1>
-		<div class="row">
-			<div class="col-md-6">
-				<h2>Bootstrapin puolesta</h2>
-				<p> -Kirsi kiireinen +1 <br> -Pete perussiisti +1 <br> -Piia portfolisivu +1<p> 
-			</div>
-			<div class="col-md-6">
-				<h2>Bootstrappia vastaan</h2>
-				<p> -Ykä yksilöllinen +1 <br> -Minna monimutkainensivu +1 <br> -Asiantuntija/opettaja Janne +1<p> 
-			</div>
-		</div>
   </main>
-  <footer class="footer mt-auto py-3 bg-light">
+  <footer class="footer mt-auto py-3 bg-light bg-dark">
 		<div class="container">
 			<span class="text-muted">
-				<a href="login.html"><button>Sign in</button></a>
+				<a href="login.html"><button>Log in</button></a>
 			</span>
 		</div>
 	</footer>
